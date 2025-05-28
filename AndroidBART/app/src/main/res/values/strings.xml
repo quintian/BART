@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Type a train No to search for its schedule.</string>
+    <string name="app_name">Bart</string>
+    <string name="action_settings">Action</string>
+
+    <string name="radio_1">DALY</string>
+    <string name="radio_2">BALB</string>
+    <string name="radio_3">GLEN</string>
+    <string name="radio_4">24TH</string>
+    <string name="radio_5">16TH</string>
+    <string name="radio_6">CIVC</string>
+    <string name="radio_7">POWL</string>
+    <string name="radio_8">MONT</string>
+    <string name="radio_9">EMBR</string>
+    <string name="radio_10">WOAK</string>
+    <string name="radio_11">LAKE</string>
+    <string name="btn_choose">Choose</string>
+</resources>
