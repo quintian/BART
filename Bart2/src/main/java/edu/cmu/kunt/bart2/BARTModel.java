@@ -22,8 +22,12 @@ import java.util.*;
 //this is for Task2
 public class BARTModel {
     public static Map<String, TrainSchedule> scheduleMap=new HashMap<>();
-    //URL of 3p API
-    static String urlString="https://api.bart.gov/api/sched.aspx?cmd=routesched&route=12&key=MW9S-E7SL-26DU-VV8V&json=y";
+       // Load API key from environment variable
+    static String apiKey = System.getenv("BART_API_KEY");
+
+    // Construct the API URL using the API key
+    static String urlString = "https://api.bart.gov/api/sched.aspx?cmd=routesched&route=12&key=" + apiKey + "&json=y";
+
     //load scheduleMap with String response received from 3p Api
     public static void loadScheduleMap(String response){
 
